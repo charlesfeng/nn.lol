@@ -1,6 +1,9 @@
 (function () {
   var resize = function () {
     document.getElementById('hero').style.height = window.innerHeight + 'px';
+    Array.prototype.forEach.call(document.getElementsByClassName('time-text'), function (elem) {
+      elem.style.maxWidth = (window.innerWidth - 125) + 'px';
+    });
   };
 
   window.onresize = resize;

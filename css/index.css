@@ -157,14 +157,18 @@ a:hover {
 #content p.time {
   color: #888;
   margin-top: 35px;
+  white-space: nowrap;
+}
+
+#content p.time > * {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
 }
 
 #content p.time > i {
   background: #F0C46E;
   border-radius: 40px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: -5px;
   text-align: center;
   width: 40px;
   height: 40px;
@@ -215,20 +219,5 @@ a:hover {
 @media only screen and (max-width: 600px) {
   #content > div {
     padding: 60px 40px;
-  }
-
-  #content p.time {
-    position: relative;
-  }
-
-  #content p.time > i {
-    position: absolute;
-    margin-top: -8px;
-    left: 0px;
-  }
-
-  #content p.time > span {
-    display: block;
-    padding-left: 45px;
   }
 }
