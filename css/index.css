@@ -71,7 +71,7 @@ p {
 
 a {
   color: #222;
-  border-bottom: 1px dotted #222;
+  border-bottom: 1px solid #F0C46E;
   text-decoration: none;
   cursor: pointer;
 }
@@ -159,15 +159,35 @@ a:hover {
   margin-top: 35px;
 }
 
-#content p.time .fa-lg {
+#content p.time > i {
+  background: #F0C46E;
+  border-radius: 40px;
   display: inline-block;
   vertical-align: middle;
   margin-top: -5px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+#content p.time > i::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: ' ';
+  width: 0px;
+  height: 100%;
+}
+
+#content p.time > i .fa-lg {
+  color: white;
+  font-size: 19px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #content p.time a {
   color: #888;
-  border-bottom: 1px dotted #888;
+  border-bottom: 1px solid #F0C46E;
 }
 
 #content p.time a:hover {
@@ -176,7 +196,7 @@ a:hover {
 }
 
 #content p.time > span {
-  margin-left: 4px;
+  margin-left: 5px;
 }
 
 #bitcoin {
