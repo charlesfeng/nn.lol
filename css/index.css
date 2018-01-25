@@ -91,8 +91,8 @@ a:hover {
 }
 
 #hero-mask {
-  background: rgba(0, 0, 0, 0.35);
-  box-shadow: 0 0 300px rgba(0, 0, 0, 0.8) inset;
+  background: rgba(5, 37, 60, 0.5);
+  box-shadow: 0 0 300px rgba(0, 0, 0, 0.4) inset;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -126,6 +126,7 @@ a:hover {
 }
 
 #hero-text > h2 {
+  color: #F0C46E;
   font-family: "learning-curve";
   font-size: 45px;
   margin-top: 30px;
@@ -146,6 +147,7 @@ a:hover {
 }
 
 #content h2 {
+  color: #062E50;
   font-family: "cubano";
   font-size: 40px;
   letter-spacing: 1px;
