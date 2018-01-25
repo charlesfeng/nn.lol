@@ -221,14 +221,14 @@ a:hover {
     position: relative;
   }
 
-  #content p.time .fa-lg {
+  #content p.time > i {
     position: absolute;
-    margin-top: 0px;
+    margin-top: -8px;
     left: 0px;
   }
 
   #content p.time > span {
     display: block;
-    padding-left: 30px;
+    padding-left: 45px;
   }
 }
