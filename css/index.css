@@ -69,10 +69,11 @@ p {
   line-height: 25px;
 }
 
-a, a:visited, a:active {
+a {
   color: #222;
   border-bottom: 1px dotted #222;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
