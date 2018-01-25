@@ -5,4 +5,9 @@
 
   window.onresize = resize;
   resize();
+
+  window.openBitcoin = function () {
+    document.getElementById('bitcoin').style.display = 'block';
+    return false;
+  };
 })();
