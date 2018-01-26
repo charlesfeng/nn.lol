@@ -58,6 +58,10 @@ table {
   font-style: normal;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: 'Circular Book';
   font-size: 17px;
